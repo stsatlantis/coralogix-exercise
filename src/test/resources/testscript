@@ -1,0 +1,1 @@
+echo '{"invalid":"cica","data":"kecske","timestamp":1}\n{"event_type":"cica","data":"kecske","timestamp":1}\n{"event_type":"kacsa","data":"kecske","timestamp":1}\n{"event_type":"kacsa","data":"kecske","timestamp":1}'

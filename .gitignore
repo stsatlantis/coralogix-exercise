@@ -1,0 +1,8 @@
+target
+.idea
+.bloop
+.metals
+metals.sbt
+out/
+.run
+.bsp
