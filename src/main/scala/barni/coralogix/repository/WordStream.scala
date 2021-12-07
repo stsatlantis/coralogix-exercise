@@ -18,7 +18,6 @@ object WordStream {
   def resource[F[_], A: Decoder](
     console: Console[F]
   )(commands: List[String])(implicit F: ConcurrentEffect[F]): Resource[F, WordStream[F, A]] = {
-    println(commands)
     eu.monniot.process.Process.spawn[F](commands).map { process =>
       new WordStream[F, A] {
         override def stream: Stream[F, A] =
